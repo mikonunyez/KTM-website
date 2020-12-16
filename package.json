@@ -1,0 +1,26 @@
+{
+  "name": "KTM-website",
+  "version": "1.0.0",
+  "description": "��#\u0000K\u0000T\u0000M\u0000-\u0000w\u0000e\u0000b\u0000s\u0000i\u0000t\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikonunyez/KTM-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikonunyez/KTM-website/issues"
+  },
+  "homepage": "https://github.com/mikonunyez/KTM-website#readme",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
