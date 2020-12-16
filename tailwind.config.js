@@ -5,7 +5,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      'blender-pro': ['Blender Pro'],
+      'roboto': ['Roboto', 'sans-serif'],
     },
     extend: {
       backgroundImage: theme => ({
