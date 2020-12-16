@@ -5,7 +5,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      'roboto': ['Roboto', 'sans-serif'],
+      'inter': ['Inter', 'sans-serif'],
     },
     extend: {
       backgroundImage: theme => ({
