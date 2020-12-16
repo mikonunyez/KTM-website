@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'inter': ['Inter', 'sans-serif'],
+      'blender-pro': ['Blender Pro'],
     },
     extend: {
       backgroundImage: theme => ({

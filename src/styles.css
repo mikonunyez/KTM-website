@@ -1,5 +1,10 @@
+@font-face{
+    font-family: 'Blender Pro';
+    src: url('/fonts/BlenderPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
