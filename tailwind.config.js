@@ -10,7 +10,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: theme => ({
-        'main-bg': "url('/public/img/defaultBackground.jpg')"
+        'main-bg': "url('/public/img/defaultBackground.jpg')",
+        'gallery-bg': "url('/public/img/galleryBackground.jpg')"
       }),
       colors: {
         orange: colors.orange,

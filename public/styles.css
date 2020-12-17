@@ -4538,6 +4538,10 @@ video {
   background-image: url('/public/img/defaultBackground.jpg');
 }
 
+.bg-gallery-bg{
+  background-image: url('/public/img/galleryBackground.jpg');
+}
+
 .from-transparent{
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -36920,6 +36924,10 @@ video {
     background-image: url('/public/img/defaultBackground.jpg');
   }
 
+  .sm\:bg-gallery-bg{
+    background-image: url('/public/img/galleryBackground.jpg');
+  }
+
   .sm\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -69222,6 +69230,10 @@ video {
 
   .md\:bg-main-bg{
     background-image: url('/public/img/defaultBackground.jpg');
+  }
+
+  .md\:bg-gallery-bg{
+    background-image: url('/public/img/galleryBackground.jpg');
   }
 
   .md\:from-transparent{
@@ -101528,6 +101540,10 @@ video {
     background-image: url('/public/img/defaultBackground.jpg');
   }
 
+  .lg\:bg-gallery-bg{
+    background-image: url('/public/img/galleryBackground.jpg');
+  }
+
   .lg\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -133832,6 +133848,10 @@ video {
     background-image: url('/public/img/defaultBackground.jpg');
   }
 
+  .xl\:bg-gallery-bg{
+    background-image: url('/public/img/galleryBackground.jpg');
+  }
+
   .xl\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -166134,6 +166154,10 @@ video {
 
   .\32xl\:bg-main-bg{
     background-image: url('/public/img/defaultBackground.jpg');
+  }
+
+  .\32xl\:bg-gallery-bg{
+    background-image: url('/public/img/galleryBackground.jpg');
   }
 
   .\32xl\:from-transparent{
