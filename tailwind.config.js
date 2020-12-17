@@ -15,7 +15,10 @@ module.exports = {
       }),
       colors: {
         orange: colors.orange,
-      }
+      },
+      spacing: {
+        'gallery-content': '720px'
+      },
     },
   },
   variants: {
