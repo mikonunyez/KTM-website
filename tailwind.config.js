@@ -6,18 +6,25 @@ module.exports = {
   theme: {
     fontFamily: {
       'inter': ['Inter', 'sans-serif'],
-      'blender-pro': ['Blender Pro'],
+      'blender-pro': ['Blender Pro']
     },
     extend: {
       backgroundImage: theme => ({
         'main-bg': "url('/public/img/defaultBackground.jpg')",
-        'gallery-bg': "url('/public/img/galleryBackground.jpg')"
+        'gallery-bg': "url('/public/img/galleryBackground.jpg')",
+        'xmas-bg': "url('/public/img/christmasbackground.jpg')"
       }),
       colors: {
         orange: colors.orange,
       },
       spacing: {
         'gallery-content': '720px'
+      },
+      height: {
+        '500px': '500px'
+      },
+      width: {
+        '500px': '500px'
       },
     },
   },
