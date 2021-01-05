@@ -21,10 +21,12 @@ module.exports = {
         'gallery-content': '720px'
       },
       height: {
-        '500px': '500px'
+        '500px': '500px',
+        '770px': '770px'
       },
       width: {
-        '500px': '500px'
+        '500px': '500px',
+        '770px': '770px'
       },
     },
   },
