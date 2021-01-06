@@ -14,6 +14,7 @@ module.exports = {
         'gallery-bg': "url('img/galleryBackground.jpg')",
         'xmas-bg': "url('img/christmasbackground.jpg')"
       }),
+
       colors: {
         orange: colors.orange,
       },

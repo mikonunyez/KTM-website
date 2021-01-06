@@ -64,9 +64,9 @@
     </div>
 
     <div class="sm:grid sm:grid-cols-2 pb-10">
-        <div class="col-start-1 mx-auto relative leading-none tracking-widest bg-black">
-            <img src="img/gallery/teamBuilding/cover.jpg" alt="" class="h-96 w-auto z-10 opacity-60">
-            <div class="text-white absolute top-0 left-0 w-full flex flex-col justify-center text-center h-96">
+        <div id="gallery2Btn" class="col-start-1 mx-auto relative leading-none tracking-widest bg-black text-white transition duration-500 hover:bg-orange-600 hover:text-black">
+            <img src="img/gallery/teamBuilding/cover.jpg" alt="" class="h-96 w-auto z-10 opacity-50">
+            <div class="absolute top-0 left-0 w-full flex flex-col justify-center text-center h-96">
                 <h1 class="text-6xl font-bold">TEAM BUILDING</h1>
                 <p class="text-xl font-bold">December 30, 2020</p>
             </div>
@@ -76,11 +76,22 @@
         </div>
     </div>
 
+    <div id="gallery2" class="p-10 bg-black bg-opacity-70 fixed inset-0 invisible transition-opacity duration-500">
+        <button id="gallery2CloseBtn" class="text-white">CLOSE</button>
+        <div class="grid grid-cols-3 auto-rows-auto gap-5 p-5">
+            <img src="img/gallery/teamBuilding/1.jpg" alt="">
+            <img src="img/gallery/teamBuilding/2.jpg" alt="">
+            <img src="img/gallery/teamBuilding/3.jpg" alt="">
+            <img src="img/gallery/teamBuilding/4.jpg" alt="">
+            <img src="img/gallery/teamBuilding/5.jpg" alt="">
+        </div>
+    </div>
+
     <footer class="font-blender-pro text-center text-sm flex justify-center h-20 sm:h-10 bg-black text-white items-center flex-wrap">
         <div class="mx-20">© 2021 Caraga KTM Brothers, all rights reserved</div>
         <div class="mx-20">Designed by Miko Nuñez</div>
     </footer> 
 
-    <script src="app.js"></script>
+    <script defer src="app.js"></script>
 </body>
 </html>
