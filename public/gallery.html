@@ -33,34 +33,6 @@
             <div class="sm:col-start-2 col-start-1 row-start-1 col-span-5 row-span-2 justify-self-center self-end font-blender-pro sm:text-8xl text-6xl text-center font-bold text-orange-600 flex-grow">PHOTO GALLERY</div>
             <div class="sm:col-start-2 col-start-1 row-start-3 col-span-5 row-span-1 justify-self-center self-start font-blender-pro sm:text-2xl text-xl text-center font-regular text-white">! WEBSITE UNDER CONSTRUCTION !</div>
         </div>
-
-        <!-- <div class="my-5 flex-col flex-wrap justify-center">
-            <div class="font-blender-pro text-white text-center">
-                <h1 class="text-4xl text-orange-600">Cataga KTM Brothers' First Anniversary Ride</h1>
-                <p class="text-xl">Route: Butuan > Britannia</p>
-            </div>
-            <div class="w-10/12 h-auto mx-auto sm:w-gallery-content flex-col justify-center">
-                <div class="carousel-container w-full mx-auto my-5 overflow-hidden">
-                    <div class="carousel-slide flex">
-                        <img src="img/carousel/britannia/carousel8.jpg" id="lastClone" alt="">
-                        <img class="object-contain" src="/public/img/carousel/britannia/carousel1.jpg" alt="">
-                        <img src="img/carousel/britannia/carousel2.jpg" alt="">
-                        <img src="img/carousel/britannia/carousel3.jpg" alt="">
-                        <img src="img/carousel/britannia/carousel4.jpg" alt="">
-                        <img src="img/carousel/britannia/carousel5.jpg" alt="">
-                        <img src="img/carousel/britannia/carousel6.jpg" alt="">
-                        <img src="img/carousel/britannia/carousel7.jpg" alt="">
-                        <img src="img/carousel/britannia/carousel8.jpg" alt="">
-                        <img src="img/carousel/britannia/carousel1.jpg" id="firstClone" alt="">
-                    </div>
-                </div>
-
-                <div class="font-blender-pro text-white justify-self-center text-center">
-                    <button class="mx-1 w-12 h-8 hover:text-orange-600 transition-colors duration-500" id="britPrevBtn">Prev</button>
-                    <button class="mx-1 w-12 h-8 hover:text-orange-600 transition-colors duration-500" id="britNextBtn">Next</button>
-                </div>
-            </div>
-        </div> -->
     </div>
 
     <div class="sm:grid sm:grid-cols-2 pb-10">
@@ -71,19 +43,36 @@
                 <p class="text-xl font-bold">December 30, 2020</p>
             </div>
         </div>
-        <div class="col-start-2">
-
+        <div id="gallery1Btn" class="col-start-2 mx-auto relative leading-none tracking-widest bg-black text-white transition duration-500 hover:bg-orange-600 hover:text-black">
+            <img src="img/gallery/britannia/cover.jpg" alt="" class="h-96 w-auto z-10 opacity-50">
+            <div class="absolute top-0 left-0 w-full flex flex-col justify-center text-center h-96">
+                <h1 class="text-6xl font-bold">ANNIVERSARY RIDE</h1>
+                <p class="text-xl font-bold">December 1, 2020</p>
+            </div>
         </div>
     </div>
 
-    <div id="gallery2" class="p-10 bg-black bg-opacity-70 fixed inset-0 invisible transition-opacity duration-500">
-        <button id="gallery2CloseBtn" class="text-white">CLOSE</button>
+    <div id="gallery2" class="p-10 bg-black bg-opacity-70 fixed inset-0 invisible min-h-screen overflow-y-auto">
+        <button id="gallery2Close" class="text-white">CLOSE</button>
         <div class="grid grid-cols-3 auto-rows-auto gap-5 p-5">
             <img src="img/gallery/teamBuilding/1.jpg" alt="">
             <img src="img/gallery/teamBuilding/2.jpg" alt="">
             <img src="img/gallery/teamBuilding/3.jpg" alt="">
             <img src="img/gallery/teamBuilding/4.jpg" alt="">
             <img src="img/gallery/teamBuilding/5.jpg" alt="">
+        </div>
+    </div>
+    <div id="gallery1" class="p-10 bg-black bg-opacity-70 fixed inset-0 invisible min-h-screen overflow-y-auto">
+        <button id="gallery1Close" class="text-white">CLOSE</button>
+        <div class="grid grid-cols-3 auto-rows-auto gap-5 p-5">
+            <img src="img/gallery/britannia/1.jpg" alt="">
+            <img src="img/gallery/britannia/2.jpg" alt="">
+            <img src="img/gallery/britannia/3.jpg" alt="">
+            <img src="img/gallery/britannia/4.jpg" alt="">
+            <img src="img/gallery/britannia/5.jpg" alt="">
+            <img src="img/gallery/britannia/6.jpg" alt="">
+            <img src="img/gallery/britannia/7.jpg" alt="">
+            <img src="img/gallery/britannia/8.jpg" alt="">
         </div>
     </div>
 
