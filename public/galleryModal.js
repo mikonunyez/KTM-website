@@ -1,3 +1,4 @@
+// gallery 
 var gallery1Btn = document.querySelector('#gallery1Btn');
 var gallery1 = document.querySelector('#gallery1');
 
@@ -6,6 +7,7 @@ var gallery2 = document.querySelector('#gallery2');
 
 var gallery1Close = document.querySelector('#gallery1Close');
 var gallery2Close = document.querySelector('#gallery2Close');
+
 
 // modal activation buttons
 gallery1Btn.addEventListener('click', function (){
