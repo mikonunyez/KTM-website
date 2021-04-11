@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "buildtailwind": "tailwind build src/styles.css -o public/styles.css"
+    "build": "",
+    "buildtw": "tailwind build src/styles.css -o public/styles.css"
   },
   "repository": {
     "type": "git",
